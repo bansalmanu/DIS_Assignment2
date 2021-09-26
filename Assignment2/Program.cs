@@ -7,22 +7,22 @@ namespace Assignment2
     {
         static void Main(string[] args)
         {
-            ////Question1:
+            //Question1:
 
-            //Console.WriteLine("Question 1");
-            //int[] heights = { -5, 1, 5, 0, -7 };
-            //int max_height = LargestAltitude(heights);
-            //Console.WriteLine("Maximum altitude gained is {0}", max_height);
-            //Console.WriteLine();
+            Console.WriteLine("Question 1");
+            int[] heights = { -5, 1, 5, 0, -7 };
+            int max_height = LargestAltitude(heights);
+            Console.WriteLine("Maximum altitude gained is {0}", max_height);
+            Console.WriteLine();
 
-            ////Question 2:
-            //Console.WriteLine("Question 2:");
-            //int[] nums = { 0, 1, 0, 3, 12 };
-            //Console.WriteLine("Enter the target number:");
-            //int target = Int32.Parse(Console.ReadLine());
-            //int pos = SearchInsert(nums, target);
-            //Console.WriteLine("Insert Position of the target is : {0}", pos);
-            //Console.WriteLine("");
+            //Question 2:
+            Console.WriteLine("Question 2:");
+            int[] nums = { 0, 1, 2, 3, 12 };
+            Console.WriteLine("Enter the target number:");
+            int target = Int32.Parse(Console.ReadLine());
+            int pos = SearchInsert(nums, target);
+            Console.WriteLine("Insert Position of the target is : {0}", pos);
+            Console.WriteLine("");
 
             //Question3:
             Console.WriteLine("Question 3");
@@ -35,75 +35,75 @@ namespace Assignment2
             }
             Console.WriteLine();
 
-            ////Question 4:
-            //Console.WriteLine("Question 4");
-            //int[] arr1 = { 1, 2, 2, 1, 1, 3 };
-            //bool unq = UniqueOccurrences(arr1);
-            //if (unq)
-            //    Console.WriteLine("Number of Occurences of each element are same");
-            //else
-            //    Console.WriteLine("Number of Occurences of each element are not same");
+            //Question 4:
+            Console.WriteLine("Question 4");
+            int[] arr1 = { 1, 2, 2, 1, 1, 3 };
+            bool unq = UniqueOccurrences(arr1);
+            if (unq)
+                Console.WriteLine("Number of Occurences of each element are same");
+            else
+                Console.WriteLine("Number of Occurences of each element are not same");
 
-            //Console.WriteLine();
+            Console.WriteLine();
 
-            ////Question 5:
-            //Console.WriteLine("Question 5");
-            //List<List<string>> items = new List<List<string>>();
-            //items.Add(new List<string>() { "phone", "blue", "pixel" });
-            //items.Add(new List<string>() { "computer", "silver", "lenovo" });
-            //items.Add(new List<string>() { "phone", "gold", "iphone" });
+            //Question 5:
+            Console.WriteLine("Question 5");
+            List<List<string>> items = new List<List<string>>();
+            items.Add(new List<string>() { "phone", "blue", "pixel" });
+            items.Add(new List<string>() { "computer", "silver", "lenovo" });
+            items.Add(new List<string>() { "phone", "gold", "iphone" });
 
-            //string ruleKey = "color";
-            //string ruleValue = "silver";
+            string ruleKey = "color";
+            string ruleValue = "silver";
 
-            //int matches = CountMatches(items, ruleKey, ruleValue);
-            //Console.WriteLine("Number of matches for the given rule :{0}", matches);
+            int matches = CountMatches(items, ruleKey, ruleValue);
+            Console.WriteLine("Number of matches for the given rule :{0}", matches);
 
-            //Console.WriteLine();
+            Console.WriteLine();
 
-            ////Question 6:
-            //Console.WriteLine("Question 6");
-            //int[] Nums = { 2, 7, 11, 15 };
-            //int target_sum = 9;
-            //targetSum(Nums, target_sum);
-            //Console.WriteLine();
+            //Question 6:
+            Console.WriteLine("Question 6");
+            int[] Nums = { 2, 7, 11, 15 };
+            int target_sum = 9;
+            targetSum(Nums, target_sum);
+            Console.WriteLine();
 
-            //////Question 7:
+            //Question 7:
 
-            //Console.WriteLine("Question 7:");
-            //string allowed = "abc";
-            //string[] words = { "a","b","c","ab","ac","bc","abc"};
-            //int count = CountConsistentStrings(allowed, words);
-            //Console.WriteLine("Number of Consistent strings are : {0}", count);
-            //Console.WriteLine(" ");
+            Console.WriteLine("Question 7:");
+            string allowed = "ab";
+            string[] words = { "ad", "bd", "aaab", "baa", "badab" };
+            int count = CountConsistentStrings(allowed, words);
+            Console.WriteLine("Number of Consistent strings are : {0}", count);
+            Console.WriteLine(" ");
 
-            ////Question 8:
-            //Console.WriteLine("Question 8");
-            //int[] num1 = { 12, 28, 46, 32, 50 };
-            //int[] num2 = { 50, 12, 32, 46, 28 };
-            //int[] indexes = AnagramMappings(num1, num2);
-            //Console.WriteLine("Mapping of the elements are");
-            //for (int i = 0; i < indexes.Length; i++)
-            //{
-            //    Console.Write(indexes[i] + "\t");
-            //}
-            //Console.WriteLine();
-            //Console.WriteLine();
+            //Question 8:
+            Console.WriteLine("Question 8");
+            int[] num1 = { 12, 28, 46, 32, 50 };
+            int[] num2 = { 50, 12, 32, 46, 28 };
+            int[] indexes = AnagramMappings(num1, num2);
+            Console.WriteLine("Mapping of the elements are");
+            for (int i = 0; i < indexes.Length; i++)
+            {
+                Console.Write(indexes[i] + "\t");
+            }
+            Console.WriteLine();
+            Console.WriteLine();
 
-            ////Question 9:
-            //Console.WriteLine("Question 9");
-            //int[] arr9 = { -2, 1, -3, 4, -1, 2, 1, -5, 8, -1, 2 };
-            //int Ms = MaximumSum(arr9);
-            //Console.WriteLine("Maximun Sum contiguous subarray {0}", Ms);
-            //Console.WriteLine();
+            //Question 9:
+            Console.WriteLine("Question 9");
+            int[] arr9 = { 7, 1, 5, 3, 6, 4 };
+            int Ms = MaximumSum(arr9);
+            Console.WriteLine("Maximun Sum contiguous subarray {0}", Ms);
+            Console.WriteLine();
 
-            ////Question 10:
-            //Console.WriteLine("Question 10");
-            //int[] arr10 = { 4, 1, 1,1,1,1,6 };
-            //int target_subarray_sum = 7;
-            //int minLen = minSubArrayLen(target_subarray_sum, arr10);
-            //Console.WriteLine("Minimum length subarray with given sum is {0}", minLen);
-            //Console.WriteLine();
+            //Question 10:
+            Console.WriteLine("Question 10");
+            int[] arr10 = { 2, 3, 1, 2, 4, 3 };
+            int target_subarray_sum = 7;
+            int minLen = minSubArrayLen(target_subarray_sum, arr10);
+            Console.WriteLine("Minimum length subarray with given sum is {0}", minLen);
+            Console.WriteLine();
         }
 
 
@@ -173,6 +173,7 @@ namespace Assignment2
         {
             try
             {
+                //in this question I understood the use of continue and break statements
 
                 //setting the return index to length of the array to cover the case if number is not in the array and is greater than all of them
                 int index = 0;
@@ -218,6 +219,7 @@ namespace Assignment2
 
         public static List<string> CommonChars(string[] words)
         {
+            //This question taught me how to use a for loop to assign some variable and using it for some another task
             try
             {
                 List<string> commonwords = new List<string>();
@@ -288,6 +290,7 @@ namespace Assignment2
 
         public static bool UniqueOccurrences(int[] arr)
         {
+            // In this question, I learnt to use dictionaries better
             try
             {
                 Dictionary<int, int> numberDict = new Dictionary<int, int>();
@@ -350,6 +353,7 @@ namespace Assignment2
 
         public static int CountMatches(List<List<string>> items, string ruleKey, string ruleValue)
         {
+            // this question helped me understand the use of switch case to reduce code complexity
             try
             {
                 //initialising the number to be returned
@@ -412,6 +416,7 @@ namespace Assignment2
 
         public static void targetSum(int[] nums, int target)
         {
+            // In this question , I learnt to use back iterations to reduce the total number of iterations and ultimately optimising the code 
             try
             {
                 //write your code here.
@@ -460,7 +465,7 @@ namespace Assignment2
 
         public static int CountConsistentStrings(string allowed, string[] words)
         {
-            
+            // This question taught mme concepts of set like subset
             
 
             try
@@ -504,6 +509,7 @@ namespace Assignment2
 
         public static int[] AnagramMappings(int[] nums1, int[] nums2)
         {
+            // this taught me to use nested loops better
             try
             {
                 //write your code here.
@@ -548,7 +554,7 @@ namespace Assignment2
         public static int MaximumSum(int[] arr)
         {
          
-
+            // this was a really great question and really had me scratching my head. I learnt alot of concepts about optimisation
 
             try
             {
@@ -614,6 +620,9 @@ namespace Assignment2
 
         public static int minSubArrayLen(int target_subarray_sum, int[] arr10)
         {
+
+            // this was again a really great question and really had me scratching my head. I learnt alot of concepts about optimisation
+
             // I am defining a function to check the sum 
             bool isSumFine(int sum)
             {
