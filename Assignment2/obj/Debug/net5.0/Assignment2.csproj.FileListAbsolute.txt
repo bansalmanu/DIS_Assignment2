@@ -1,0 +1,15 @@
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/bin/Debug/net5.0/Assignment2.deps.json
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/bin/Debug/net5.0/Assignment2.runtimeconfig.json
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/bin/Debug/net5.0/Assignment2.runtimeconfig.dev.json
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/bin/Debug/net5.0/Assignment2.dll
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/bin/Debug/net5.0/ref/Assignment2.dll
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/bin/Debug/net5.0/Assignment2.pdb
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/obj/Debug/net5.0/Assignment2.csproj.AssemblyReference.cache
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/obj/Debug/net5.0/Assignment2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/obj/Debug/net5.0/Assignment2.AssemblyInfoInputs.cache
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/obj/Debug/net5.0/Assignment2.AssemblyInfo.cs
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/obj/Debug/net5.0/Assignment2.csproj.CoreCompileInputs.cache
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/obj/Debug/net5.0/Assignment2.dll
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/obj/Debug/net5.0/ref/Assignment2.dll
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/obj/Debug/net5.0/Assignment2.pdb
+/Users/manubansal/Downloads/Study/Fall21/DIS/Workspace/Assignment2/Assignment2/obj/Debug/net5.0/Assignment2.genruntimeconfig.cache
